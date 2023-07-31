@@ -1,0 +1,37 @@
+#NewArrival {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    article {
+        display: flex;
+        align-items: center;
+        width: 700px;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        div {
+            width: 700px;
+            h5 {
+                display: flex;
+                justify-content: space-around;
+                text-align: center;
+                font: $articulo-titulo;
+                text-decoration: underline;
+                margin-bottom: 2rem;
+            }
+            p {
+                font: $parrafos-1;
+                text-align: center;
+            }
+            & button:hover {
+                color: $color-2;
+            }
+        }
+        .img3 {
+            width: 400px;
+            height: 300px;
+            border-radius: 15px;
+            margin-left: 10rem;
+        }
+    }
+
+}

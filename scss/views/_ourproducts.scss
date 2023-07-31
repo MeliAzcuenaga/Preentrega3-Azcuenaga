@@ -1,0 +1,34 @@
+#OurProducts {
+    display: flex;
+    max-width: 800px;
+    justify-content: center;
+    margin: 4rem auto;
+    gap: 90px;
+    article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        flex: 1 1 clamp(300px, 30%, 400px);
+        img {
+            border-radius: 40px;
+        }
+        h5 {
+            font: $titulos-articulos;
+            text-decoration: underline;
+        }
+        span {
+            font-size: 1.3rem;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+        }
+        & button:hover {
+            color: $color-2;
+        }
+    }
+}
+
+#banner2 {
+    max-width: 1120px;
+    margin: 10rem auto;
+}

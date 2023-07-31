@@ -1,0 +1,116 @@
+@media screen and (max-width: 769px) {
+    #OurProducts {
+        display: flex;
+        max-width: 630px;
+        justify-content: center;
+        margin: 4rem auto;
+        gap: 90px;
+        text-align: center;
+    }
+
+    #OurBlog {
+        display: flex;
+        max-width: 600px;
+        justify-content: center;
+        margin: 2rem auto;
+    }
+
+    #AboutUs {
+        display: flex;
+        justify-content: center;
+        
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .parrafo2 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+
+    #NewArrival {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 400px;
+    }
+
+    .articulo2 {
+        display: flex;
+        align-items: center;
+        width: 700px;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .img3 {
+        width: 350px;
+        height: 250px;
+        border-radius: 15px;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    .articulo2-titulo {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 1.3rem;
+        font-weight: 400;
+        text-decoration: underline;
+        margin-bottom: 2rem;
+        padding-left: 250px;
+    }
+
+    .parrafo3 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-left: 250px;
+    }
+
+    .articulo-boton1 {
+        border: none;
+        background-color: white;
+        color: black;
+        font-family: 'Roboto Mono', monospace;
+        font-style: bold;
+        font-size: 1.1rem;
+        margin-left: 17.5rem;
+        margin-right: 17.5rem;
+    }
+
+    .articulo-boton1:hover {
+        color: #CEC5BE;
+    }
+    #VisitUs-Suscribe {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .articulo3 {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+    
+    .titulo2 {
+        display: flex;
+        justify-content: center;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 400;
+        font-size: 2.5rem;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+    
+    .mapa {
+        width: 400px;
+        height: 300px;
+    }
+
+}

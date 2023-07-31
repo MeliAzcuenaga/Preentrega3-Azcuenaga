@@ -1,0 +1,54 @@
+.titulo1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin-top: 10rem;
+    margin-bottom: 8rem;
+}
+
+.titulo3 {
+    @extend .titulo1;
+}
+
+.titulo2 {
+    display: flex;
+                justify-content: center;
+                font-family: 'Roboto Mono', monospace;
+                font-weight: 400;
+                font-size: 2.5rem;
+                margin-top: 4rem;
+                margin-bottom: 2rem;
+}
+
+.titulo4 {
+    @extend .titulo2;
+    margin-bottom: 7rem;
+}
+
+.articulo-boton {
+    border: none;
+    background-color: white;
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-style: bold;
+    font-size: 1.1rem;
+}
+
+.articulo-boton1 {
+    @extend .articulo-boton;
+    padding-left: 12.4rem;
+}
+
+.instagram {
+    color: #BFA399;
+}
+
+.twitter {
+    @extend .instagram;
+}
+
+.whatsapp {
+    @extend .instagram;
+}

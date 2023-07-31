@@ -1,0 +1,16 @@
+#AboutUs {
+    display: flex;
+    justify-content: center;
+    margin: 4rem auto;
+    margin-left: 250px;
+    margin-right: 250px;
+    p{
+    font: $parrafos-2;
+    text-align: center;
+    }
+}
+.video {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}

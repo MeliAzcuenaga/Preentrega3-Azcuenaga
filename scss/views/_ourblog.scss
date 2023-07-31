@@ -1,0 +1,30 @@
+#OurBlog {
+    display: flex;
+    max-width: 700px;
+    justify-content: center;
+    margin: 4rem auto;
+    gap: 90px;
+    article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        img {
+            border-radius: 15px;
+        }
+        h5 {
+            font: $articulo-titulo;
+            text-align: center;
+            text-decoration: underline;
+        }
+        p {
+            font: $parrafos-1;
+            text-align: center;
+        }
+        & button:hover {
+            color: $color-2;
+        }
+    }
+}
+
+

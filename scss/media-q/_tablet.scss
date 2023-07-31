@@ -1,0 +1,124 @@
+@media screen and (max-width: 577px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #OurProducts {
+        display: flex;
+        max-width: 430px;
+        justify-content: center;
+        margin: 4rem auto;
+        gap: 90px;
+        text-align: center;
+    }
+
+    #OurBlog {
+        display: flex;
+        max-width: 350px;
+        justify-content: center;
+        margin: 2rem auto;
+    }
+
+    .img {
+        border-radius: 20px;
+    }
+
+    #AboutUs {
+        display: flex;
+        justify-content: center;
+        margin: 4rem auto;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .parrafo2 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .video {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10rem;
+    }
+
+    iframe {
+        width: 400px;
+    }
+
+    #NewArrival {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .articulo2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 150px;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .parrafo3 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-left: 15rem;
+        margin-right: 15rem;
+    }
+
+    .articulo-boton1 {
+        border: none;
+        background-color: white;
+        color: black;
+        font-family: 'Roboto Mono', monospace;
+        font-style: bold;
+        font-size: 1.1rem;
+        margin-left: 16rem;
+        margin-right: 16rem;
+        padding-left: 16rem;
+    }
+
+    .img3 {
+        max-width: 320px;
+        max-height: 320px;
+        border-radius: 15px;
+        margin-left: 10rem;
+        margin-right: 10.5rem;
+        margin-top: 2rem;
+    }
+
+    .articulo3 {
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+    .mapa {
+        max-width: 500px;
+        max-height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 8rem;
+        margin-right: 3.5rem;
+    }
+
+    .formulario {
+
+        margin-top: 0rem;
+        margin-left: 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
